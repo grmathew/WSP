@@ -1,0 +1,206 @@
+/*--------------------------CSS for Site Analysis----------------------*/
+
+
+body {
+	font: 100%/1.5 Verdana, Helvetica, Arial, san-serif; 
+	max-width: 960px;
+	background-color: #c4df9b;
+	background-attachment: fixed;
+	Margin: 0 auto;
+	
+	}
+#wrapper {
+	max-width: 100%;
+	padding: 3.164557%;
+	}
+	
+/*--------------------------Header----------------------*/
+	
+#bodyheader {
+	width: 100%; 
+	background-color: #819b59;
+	float: left;
+	border-radius: 10px;
+	}
+
+		
+#title {
+	margin: 0px;
+	padding-left: 1.973684%;
+	padding-right: .877193%; 
+	width: 80%; 
+	float: left;
+	line-height: 50px;
+	font-size: 1.8em;
+	}	
+
+nav ul {
+	width: 95%;
+	margin: 0px;
+	float: left;
+	clear: right;
+	line-height: 30px;
+	padding: 0px;
+	padding-top: 17px;
+	padding-left: 13%;
+	list-style-type: none;	
+	}
+	
+nav li {
+	list-style: inline;
+	float: left;
+	width: 20%;
+	margin: 0px;
+	list-style-type: none;
+	}
+
+nav a {
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	}
+	
+nav a:link {
+	color: #000;
+	background: #819b59;
+	}
+	
+nav a:visited {
+	color: #fff;
+	text-decoration: line-through; 
+	}
+	
+nav a:hover {
+	background: #000;
+	color: silver;
+	}
+	
+/*--------------------------Info----------------------*/
+	
+#info {
+	width: 96%;
+	margin-top: 80px;
+	background-color: #819b59;
+	padding-left: 1.973684%; /* 15px */
+	Padding-right: 1.973684%; /* 15px */
+	border-radius: 10px;
+	}
+	
+h1 {
+	font-size: 1.5em;
+	}
+	
+h3 {
+	padding: 0px;
+	margin: 0px;
+	}
+	
+h3 {
+	padding: 0px;
+	margin: 0px;
+	}
+	
+p {
+	text-indent: 30px;
+	padding: 0px;
+	margin: 0px;
+	font-family:  Verdana, Helvetica, Arial, san-serif; padding: 25px;
+	font-size: 1em;
+	}
+
+/*--------------------------Site Intent----------------------*/
+
+#siteintent {
+	width: 96%;
+	margin-top: 95px;
+	background-color: #819b59;
+	padding-left: 1.973684%; /* 15px */
+	Padding-right: 1.973684%; /* 15px */
+	border-radius: 10px;
+	}
+	
+ul {width: 94.078947%;
+	padding-bottom: 15px;
+	}
+	
+	
+a:link {
+	text-decoration: none;
+	color: #792e2f;
+	}
+	
+a:visited {
+	color: #fff;
+	text-decoration: line-through;
+	}
+	
+a:hover {
+	color: #000;
+	}
+		
+a:active {
+	color: #000;
+	}
+	
+/*--------------------------Competitive Analysis----------------------*/
+
+#competitiveanalysis {
+	width: 96%;
+	margin-top: 30px;
+	background-color: #819b59;
+	padding-left: 1.973684%; /* 15px */
+	padding-right: 1.973684%; /* 15px */
+	padding-bottom: 15px;
+	border-radius: 10px;
+	}
+	
+table{
+	border-collapse: collapse;
+	padding: 0.3em;
+	}
+
+th {
+	border: 2px solid #000;
+	padding: 0.3em;
+	background: #c4df9b;
+	color: #000;
+	text-align: left;
+	}
+	
+td {
+	border: 2px solid #000;
+	padding: 0.3em;
+	}
+/*--------------------------Keywords----------------------*/
+
+#keywords {
+	width: 96%;
+	margin-top: 30px;
+	background-color: #819b59;
+	padding-left: 1.973684%; /* 15px */
+	Padding-right: 1.973684%; /* 15px */
+	border-radius: 10px;
+	}
+	
+/*--------------------------Target Audience---------------------*/
+	
+#targetaudience {
+	width: 96%;
+	margin-top: 30px;
+	background-color: #819b59;
+	padding-left: 1.973684%; /* 15px */
+	Padding-right: 1.973684%; /* 15px */
+	border-radius: 10px;
+	}
+
+/*--------------------------Footer----------------------*/
+
+#footer {
+	width: 96%;
+	margin-top: 30px;
+	background-color: #819b59;
+	padding-left: 1.973684%; /* 15px */
+	Padding-right: 1.973684%; /* 15px */
+	border-radius: 10px;
+	}
+	
