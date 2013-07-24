@@ -6,8 +6,61 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
-li {
-display: inline;
+.gallerycontainer {
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.galleryItem {
+    color: #797478;
+    font: 10px/1.5 Verdana, Helvetica, sans-serif;
+    float: left;
+}
+ 
+.galleryItem h3 {
+    text-transform: uppercase;
+}
+ 
+.galleryItem img {
+    max-width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px solid #333;
+}
+
+.img {
+	display: inline;
+	padding: 10;
+	min-height: 800;
+}
+body {
+	font: 100%/1.5 Verdana, Helvetica, Arial, san-serif; 
+	background-image: url("../images/harley_background.jpg");
+	background-attachment: fixed;
+	Margin: 0 auto;
+	font-family: 'American Typewriter', cursive;
+	background-color: #b8b353;
+	}
+	
+#bodyheader img {
+	border: 4px solid #467256;
+}
+#bodyheader {
+	background-color: #fdfedc;
+	border-bottom:  50px solid #467256;
+	border-top: 50px solid #467256;
+	border-color: #467256;
+	padding: -20px;
+}
+
+footer {
+	background: #467256;
+	min-height: 50px;
+}
+
+footer p {
+	display: inline;
 }
 /* =============================================================================
    Page Styles
