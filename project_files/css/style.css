@@ -6,6 +6,10 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
+ul {
+	list-style-type: none;
+}
+
 #headerimg {
 	margin-top: -185px;
 }
@@ -36,7 +40,7 @@ nav div {
 	margin: 10px;
 }
 
-.container {
+article {
 	background-color: #fdfedc;
 }
 
