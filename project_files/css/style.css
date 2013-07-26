@@ -25,6 +25,8 @@ body {
 	font-family: 'American Typewriter', cursive;
 }
 
+
+
 aside {
 	background: #af421e url('../images/bg.jpg') no-repeat left top;
 	padding-bottom: 20px;
@@ -38,10 +40,6 @@ aside {
 
 nav div {
 	margin: 10px;
-}
-
-article {
-	background-color: #fdfedc;
 }
 
 article ul {
