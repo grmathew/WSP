@@ -33,7 +33,7 @@ aside {
 }
 
 nav div {
-	margin: 20px;
+	margin: 10px;
 }
 
 .container {
@@ -49,32 +49,41 @@ article ul {
     overflow: hidden;
 }
 
-.galleryItem {
-    color: #797478;
-    font: 10px/1.5 Verdana, Helvetica, sans-serif;
+#galleryItem {
+    color: #2e2c25;
+    font: 10px/1.5 American Typewriter, Verdana, Helvetica, sans-serif;
     float: left;
 }
+
+h1 {
+	color: #2e2c25;
+	font: American Typewriter, Verdana, Helvetica, sans-serif;
+}
  
-.galleryItem h3 {
+#galleryItem h3 {
     text-transform: uppercase;
 }
  
-.galleryItem img {
+#galleryItem img {
+	max-height: 80px;
+	overflow: hidden;
     max-width: 100%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    border: 2px solid #333;
+    border: 2px solid #467256;
 }
 
-.img {
+/*div img {
 	display: inline;
-	padding: 10;
-	min-height: 800;
+	margin: 10px;
+	height: 100px;
+	width: 100px;
+	overflow: hidden;*/
 }
 body {
 	font: 100%/1.5 Verdana, Helvetica, Arial, san-serif; 
-	background-image: url("../images/harley_background.jpg");
+	background-image: url("images/DSC_4270.png");
 	background-attachment: fixed;
 	Margin: 0 auto;
 	font-family: 'American Typewriter', cursive;
