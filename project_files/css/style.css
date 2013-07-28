@@ -10,11 +10,19 @@ ul {
 	list-style-type: none;
 }
 
-#headerimg {
-	margin-top: -185px;
+nav ul li {
+	margin-left: -50px;
+	margin-right: 18px;
+}
+
+#headerimg2 img{
+    margin-top: -185px;
+	border: 5px solid #467256;
+	margin-left: 50.4%;
 }
 
 #headerimg img {
+    margin-top: -185px;
 	border: 5px solid #467256;
 	margin-left: -10px;
 	margin-right: 109px;
@@ -24,6 +32,9 @@ body {
 	background: #b8b353 url('../images/DCS4247.jpg') no-repeat left top;
 	font-family: 'American Typewriter', cursive;
 }
+#body {
+	background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
+}
 
 #contact {
 	background-color:  #b8b353;
@@ -31,16 +42,15 @@ body {
 	padding: 15px;
 }
 
-aside {
+.aside {
 	background: #af421e;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	padding-left: 5px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
 	margin-top: -28px;
 	margin-bottom: 20px;
-}
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	}
 
 nav div {
 	margin: 10px;
@@ -85,7 +95,6 @@ h1 {
 	background-color: #b8b353;
 	border-bottom:  50px solid #467256;
 	border-top: 50px solid #467256;
-	border-left: 5px solid #333;
 	border-color: #467256;
 	padding: -20px;
 	height: 100px;
@@ -102,22 +111,204 @@ footer p {
 /* =============================================================================
    Page Styles
    ========================================================================== */
+.indextitle {
+	margin-top: -35px;
+	margin-left: 30px;
+}
 
+h1 {
+	font-size: 26px;
+	color: #000;
+}
+
+h2 {
+	font-size: 20px;
+	color: #000;
+}
+
+.indeximg {
+	max-width: 30%;
+	margin-top: 3px;
+	border: 5px solid #2e2c25;
+}
+
+.indexp {
+	margin-top: 0px;
+}
+
+.article {
+	margin-top: 10px;
+}
 /* =============================================================================
    Media Queries
    ========================================================================== */
 
 /* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
 
+#bodyheader {
+	background-color: #b8b353;
+	border-bottom:  40px solid #467256;
+	border-top: 40px solid #467256;
+	border-color: #467256;
+	padding: -20px;
+	height: 75px;
+}
+
+#headerimg img{
+	margin-top: -150px;
+}
+
+#headerimg2 img {
+	margin-top: -150px;
+	margin-left: 49.7%;
+}
+
+
+aside {
+	background: #af421e;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: -20px;
+	margin-bottom: 10px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	}
+	
+nav ul li {
+	margin-left: -50px;
+	margin-right: 8px;
+	}
+}
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 767px) {
+
+#headerimg2 {
+	display: none;
+}
+
+
+#bodyheader {
+	background-color: #b8b353;
+	border-bottom:  40px solid #467256;
+	border-top: 40px solid #467256;
+	border-color: #467256;
+	padding: -20px;
+	height: 75px;
+}
+
+#headerimg img{
+	margin-top: 10px;
+}
+
+aside {
+	background: #af421e;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	}
+	
+nav ul li {
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+}
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.headerimg {
+	display: hidden;
+}
+
+#bodyheader {
+	display: none;
+}
+
+#headerimg {
+	margin-left: 7%;
+	max-width: 80%;
+	margin-top: 10px;
+}
+
+#aside {
+	background: #af421e;
+	max-width: 65%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin-left: 14%;
+	}
+	
+	nav ul li {
+		margin-left: 0px;
+		margin-right: 8px;
+	}
+	
+	div aside {
+		margin-left: 60%;
+	}
+	}
 
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+.headerimg {
+	display: hidden;
+}
+
+#bodyheader {
+	display: none;
+	background-color: #b8b353;
+	border-bottom:  40px solid #467256;
+	border-top: 40px solid #467256;
+	border-color: #467256;
+	height: 75px;
+}
+
+#headerimg {
+	margin-left: 2%;
+	max-width: 71.5%;
+	margin-top: 10px;
+}
+
+article {
+	max-width: 75%;
+}
+
+#footer {
+	max-width: 5%;
+}
+
+
+
+#aside {
+	background: #af421e;
+	max-width: 65%;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin-left: 5%;
+	}
+	
+nav ul li {
+		max-width: 80%;
+		margin-left: -33px;
+		margin-right: 0px;
+	}
+	
+#aside {
+		
+	}
+	}
 
 
 /* =============================================================================
