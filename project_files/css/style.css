@@ -42,8 +42,8 @@ nav a:link {
 	}
 	
 nav a:visited {
-	background: #000;
-	color: #fffcc0;
+	background: #fffcc0;
+	color: #000;
 	text-decoration: line-through;
 	}
 	
